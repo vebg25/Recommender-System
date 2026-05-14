@@ -1,0 +1,28 @@
+﻿# Create .gitignore
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Data — too large for git
+data/raw/
+data/processed/
+*.parquet
+*.bin
+*.index
+*.pt
+*.pkl
+
+# Environment secrets
+.env
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
